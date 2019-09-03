@@ -1,0 +1,102 @@
+body {
+    background-color: #232527;
+    font-family: 'Arial', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+#topnavlink {
+    padding: 15px;
+    color: #6EB7DB;
+    text-decoration: none;
+    font-size: 14px;
+}
+#bottomnavlink {
+    padding: 15px;
+    color: #bdbdbd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.logo {
+    margin-top: 175px;
+}
+
+.searchbar {
+    background-color: #191919;
+    color: white;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 450px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-top-color: rgb(61, 61, 61);
+    border-right-color: rgb(61, 61, 61);
+    border-bottom-color: rgb(61, 61, 61);
+    border-left-color: rgb(61, 61, 61);
+    box-shadow: rgb(34, 36, 37) 1px 2px 3px;
+}
+
+.searchtext {
+    width: 80%;
+    height: 20px;
+    outline: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.mic {
+    height: 24px;
+    width: 24px;
+    padding-left: 20px;
+    margin-top: 8px;
+    border-top: 10px;
+    align-content: justify;
+}
+
+
+.searchbutton {
+    background-color: #303235;
+    border: none;
+    color: #bdbdbd;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background:#232527;
+ }
