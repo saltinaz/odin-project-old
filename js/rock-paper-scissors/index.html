@@ -3,8 +3,11 @@
     <title>Rock, Paper, Scissors</title>
     <link rel="icon" type="image/png" href="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png">
 </head>
-<body>
-    <h3>Open the developer console and type game() to play!</h3>
+<body style="background-color:#F5F4F0;">
+    <center>
+        <img src="rps.png">
+        <h3>Open the developer console and type rps() to play!</h3>
+    </center>
     <script>
         
         let playerScore = 0;
@@ -17,7 +20,6 @@
             randomChoice = Math.floor(Math.random() * 3); 
             computerChoice = choices[randomChoice];
             return computerChoice;
-        
         }
         
         function playRound(playerSelection, computerSelection){
@@ -65,7 +67,7 @@
 
         }
 
-        function game(){
+        function rps(){
             console.log("-----Round 1-----");
             playRound();
             console.log("-----Round 2-----");
@@ -93,6 +95,7 @@
             } else {
                 console.log("You uhh.. You tied with the computer.");
                 console.log("So, I guess this is it, huh?");
+                consoloe.log("To be continued...");
             }
             playAgain();
         }
@@ -103,7 +106,7 @@
             var playAgainResponse = prompt("Play again? (Enter Yes or No)", "").toLowerCase();
 
             if (playAgainResponse == "yes") {
-                game();
+                rps();
             } else if (playAgainResponse == "no") {
                 console.log("Thanks for playing!");
             } else {
